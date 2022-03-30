@@ -25,4 +25,7 @@ List<ProductReview> products = new List<ProductReview>()
 //ReviewOperation.specificRecords(products);
 
 //Uc4
-ReviewOperation.recordCount(products);
+//ReviewOperation.recordCount(products);
+
+//UC5
+ReviewOperation.retrieveColoumn(products);

@@ -44,5 +44,19 @@ namespace ProductReviewManagement
                 Console.WriteLine(record.ProductID +" "+record.Count);
             }
         }
+
+        public static void retrieveColoumn(List<ProductReview> products)
+        {
+            var record4 = from productReviews in products
+                          select new {productReviews.Review, productReviews.ProductID};
+                          
+            foreach ( var record in record4)
+            {
+                Console.WriteLine(record);
+            }
+                          
+        }
+
+
     }
 }
