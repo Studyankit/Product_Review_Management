@@ -8,13 +8,13 @@ namespace ProductReviewManagement
 {
     internal class ProductReview
     {
-        private int ProductID { get; set; }
-        private int UserID { get; set; }
-        private int Rating { get; set; }
-        private int Review { get; set; }
-        private int isLike { get; set; }
+        public int ProductID { get; set; }
+        public int UserID { get; set; }
+        public int Rating { get; set; }
+        public string Review { get; set; }
+        public bool isLike { get; set; }
 
-        public void ReviewSpecification(int ProductID, int UserID, int Rating, int Review, isLike)
+        public void ReviewSpecification(int ProductID, int UserID, int Rating, string Review, bool isLike)
         {
             this.ProductID = ProductID;
             this.UserID = UserID;
