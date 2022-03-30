@@ -19,4 +19,7 @@ List<ProductReview> products = new List<ProductReview>()
 };
 
 //Uc2
-ReviewOperation.TopRecord(products);
+//ReviewOperation.TopRecord(products);
+
+//UC3
+ReviewOperation.specificRecords(products);
