@@ -28,4 +28,7 @@ List<ProductReview> products = new List<ProductReview>()
 //ReviewOperation.recordCount(products);
 
 //UC5
-ReviewOperation.retrieveColoumn(products);
+//ReviewOperation.retrieveColoumn(products);
+
+//UC6
+ReviewOperation.SkipRecord(products);
