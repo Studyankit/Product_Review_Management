@@ -22,4 +22,7 @@ List<ProductReview> products = new List<ProductReview>()
 //ReviewOperation.TopRecord(products);
 
 //UC3
-ReviewOperation.specificRecords(products);
+//ReviewOperation.specificRecords(products);
+
+//Uc4
+ReviewOperation.recordCount(products);
